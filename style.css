@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #0f0f0f;
+    color: white;
+}
+
+/* HEADER */
+header{
+    background: #111;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1{
+    color: gold;
+}
+
+nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+/* CARRINHO */
+#icone-carrinho{
+    cursor: pointer;
+    background: gold;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* SEÇÕES */
+section{
+    padding: 40px;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: gold;
+}
+
+/* PRODUTOS */
+.produto{
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.3s;
+}
+
+.produto:hover{
+    transform: scale(1.05);
+}
+
+.produto img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.preco{
+    display: block;
+    margin: 10px 0;
+    color: #00ff88;
+}
+
+/* BOTÃO */
+button{
+    padding: 8px;
+    border: none;
+    background: gold;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: orange;
+}
+
+/* CARRINHO POPUP */
+#carrinho-popup{
+    position: fixed;
+    right: 10px;
+    top: 80px;
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    display: none;
+}

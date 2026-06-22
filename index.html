@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Veículos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Elite Veículos</h1>
+
+    <nav>
+        <a href="#todos-produtos">TODOS OS VEÍCULOS</a>
+        <a href="#carros">CARROS</a>
+        <a href="#motos">MOTOS</a>
+    </nav>
+
+    <div id="icone-carrinho">
+        🛒 <span id="contador-carrinho">0</span>
+    </div>
+</header>
+
+<section id="carrinho-popup">
+    <h2>🛒 Carrinho</h2>
+    <ul id="lista-carrinho"></ul>
+    <p><strong>Total: R$ <span id="total">0.00</span></strong></p>
+</section>
+
+<section id="todos-produtos"></section>
+
+<section id="carros">
+    <h2>Carros</h2>
+
+    <div class="produto">
+        <img src="./img_carros/corola.jpg">
+        <h3>Toyota Corolla</h3>
+        <strong class="preco" data-preco="120000">R$ 120.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/civic.jpg">
+        <h3>Honda Civic</h3>
+        <strong class="preco" data-preco="115000">R$ 115.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/onix.webp">
+        <h3>Chevrolet Onix</h3>
+        <strong class="preco" data-preco="80000">R$ 80.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/polo.jpg">
+        <h3>Volkswagen Polo</h3>
+        <strong class="preco" data-preco="90000">R$ 90.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/hb20.jpg">
+        <h3>Hyundai HB20</h3>
+        <strong class="preco" data-preco="85000">R$ 85.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">   
+        <img src="./img_carros/jeep.jpg">
+        <h3>Jeep Renegade</h3>
+        <strong class="preco" data-preco="130000">R$ 130.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/pulse.jpeg">
+        <h3>Fiat Pulse</h3>
+        <strong class="preco" data-preco="110000">R$ 110.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/hilux.jpg">
+        <h3>Toyota Hilux</h3>
+        <strong class="preco" data-preco="250000">R$ 250.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/ford.webp">
+        <h3>Ford Ranger</h3>
+        <strong class="preco" data-preco="240000">R$ 240.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/tracker.jpg">
+        <h3>Chevrolet Tracker</h3>
+        <strong class="preco" data-preco="140000">R$ 140.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/fiat.jpg">
+        <h3>Fiat Uno</h3>
+        <strong class="preco" data-preco="8000">R$ 8.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_carros/gol.jpg">
+        <h3>Volkswagen Gol</h3>
+        <strong class="preco" data-preco="30000">R$ 30.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+</section>
+<section id="motos">
+    <h2>Motos</h2>
+
+    <div class="produto">
+        <img src="./img_motos/cg.png">
+        <h3>Honda CG 160</h3>
+        <strong class="preco" data-preco="15000">R$ 15.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/biz.webp">
+        <h3>Honda Biz 125</h3>
+        <strong class="preco" data-preco="13000">R$ 13.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/xre.jpeg">
+        <h3>Honda XRE 300</h3>
+        <strong class="preco" data-preco="28000">R$ 28.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/fazer.jpeg">
+        <h3>Yamaha Fazer 250</h3>
+        <strong class="preco" data-preco="22000">R$ 22.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/crosser.jpeg">
+        <h3>Yamaha Crosser 150</h3>
+        <strong class="preco" data-preco="18000">R$ 18.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/mt.jpeg">
+        <h3>Yamaha MT-03</h3>
+        <strong class="preco" data-preco="32000">R$ 32.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/cb5.jpeg">
+        <h3>Honda CB 500F</h3>
+        <strong class="preco" data-preco="35000">R$ 35.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/ninja.jpeg">
+        <h3>Kawasaki Ninja 400</h3>
+        <strong class="preco" data-preco="40000">R$ 40.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/grs.jpeg">
+        <h3>BMW G 310 R</h3>
+        <strong class="preco" data-preco="38000">R$ 38.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/pcx.jpeg">
+        <h3>Honda PCX 160</h3>
+        <strong class="preco" data-preco="20000">R$ 20.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/africatwin.jpeg">
+        <h3>Honda Africa Twin</h3>
+        <strong class="preco" data-preco="85000">R$ 85.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <img src="./img_motos/xj6.jpeg">
+        <h3>Yamaha Xj6</h3>
+        <strong class="preco" data-preco="55000">R$ 55.000</strong>
+        <button class="btn-carrinho">Adicionar ao Carrinho</button>
+    </div>
+</section>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
